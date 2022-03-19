@@ -1,0 +1,246 @@
+/* google fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior: smooth;
+}
+
+/* Start special category */
+
+
+.title{
+    text-align: center;
+}
+
+.line{
+  width:8%;
+  height:2px;
+  background-color: grey;
+  display: block;
+  margin:.5% 20% 0 45%;
+  
+ 
+} 
+.Special-category{
+    width:100%;
+   display:flex;
+   flex-direction:row;
+   flex-wrap: wrap;
+
+}
+.category-content{
+  width:100%;
+    display: flex;
+    
+    
+}
+
+.box{
+    width:25%;
+     margin:10px 0 5% 10px ; 
+}
+.Special-category .category-content .serv-img {
+margin-left:0 auto;
+
+}
+.Special-category .category-content  img {
+        margin:0 10px;
+       
+}
+.Special-category .category-content  .text-h {
+color:rgb(163, 161, 161);
+font-weight:500 ;
+margin-top:16px
+
+}
+.Special-category .category-content  .text-p {
+font-weight: 900;
+font-size: 1.2em;
+
+}
+
+/* End special category */
+
+.container .content{
+  margin-left: 5%;
+    display:flex;
+}
+.pen{
+    margin:0 9%;
+    margin-top:-1.5em
+}
+.textt{
+height:450px;
+    background-color: antiquewhite;
+}
+.tex {
+  width:100%;
+  background-repeat: no-repeat;
+  background-image: url(../images/p5.jpg);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  margin:0 2%;
+}
+.tex:hover{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+}
+.texx {
+    width:100%;
+    background-repeat: no-repeat;
+     background-image: url(../images/p6.jpg);
+    transition:.5s;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s; 
+    margin:0 2%;
+}
+.texx:hover{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+}
+ 
+.qut{
+    font-size:60px;
+    color:brown;
+
+}
+.mark{
+    margin:0 9%;
+    font-weight:600;
+
+}
+.content-p{
+  
+   line-height: 25px;
+   font-weight: 600;
+   margin-bottom:0  50px;
+
+}
+.p-line{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    padding-top: 190px;
+}
+.nee{
+    margin:0 30px;
+    
+}
+.linee{
+    background-color: grey;
+    width:12%;
+    height:1px;
+    display: block;
+    border:2px solid rgb(197, 196, 196);
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+ .text-span{
+     
+     color:grey;
+ }
+.text-p{
+    margin-top:.3em;
+    font-weight: 800;
+    font-size:1.2em
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start featured product */
+
+
+
+
+.Featured-products{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    position:relative;
+    
+}
+.Featured-products .links{
+display:flex;
+width:55%;
+margin:5em 7em 1em;
+
+
+
+}
+.Featured-products .links .link{
+text-decoration: none;
+margin:30px;
+}
+.Featured-products .links .links-li{
+    list-style: none;
+    color: black;
+    font-size:1.2em;
+    font-weight: 500;
+}
+
+.Featured-content{
+     position:relative;
+     display: flex;
+     width:40%;
+     transform: translate(-100px);
+     -webkit-transform: translate(-100px);
+     -moz-transform: translate(-100px);
+     -ms-transform: translate(-100px);
+     -o-transform: translate(-100px);
+}
+.Featured-products .Featured-content .image{
+      width:33%;
+      margin:0 10px;
+}
+
+.Featured-products .Featured-content .icon{
+       color:yellow;
+      margin-left: 1em;
+}
+.Featured-products .Featured-content .icon .st{
+    color:black;
+ }
+ .Featured-products .Featured-content .text{
+        margin:30px 15px;
+
+        
+}
+
+.Featured-products .Featured-content .rate{
+    font-weight: 600;
+}
+
+/* End featured product */

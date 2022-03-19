@@ -1,0 +1,31 @@
+.home{
+    border: 5px black solid;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.pro1{
+    width: 33%;}
+
+.ma{
+    margin: 0px 50px;
+    color: brown;
+    display: flex;
+    
+    justify-content:right;
+    flex-wrap: nowrap;
+    
+}
+.para{
+    width: min-content;
+}
+.imgo{
+    background-repeat: no-repeat;   
+    margin: 0px 20px ;
+    width: 400px;
+    height: 700px;
+    background-image: url(../images/p5.jpg);
+
+}
